@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.div2{
+	margin: auto;
+	/*border: solid;*/
+
+	
+}
+.table1{
+	width:900px;
+	margin: auto;
+	text-align: center;
+	border: none;
+	outline: none; /*取消边框和外边框将按钮边框去掉*/
+		border-collapse:collapse;
+}
+.table2{
+	width:700px;
+	margin: auto;
+	text-align: center;
+	border: none;
+	outline: none; /*取消边框和外边框将按钮边框去掉*/
+	border-collapse:collapse;
+}
+th{
+
+	border-color :#0080ff;
+	background-color: #0080ff;
+}
+
+
+

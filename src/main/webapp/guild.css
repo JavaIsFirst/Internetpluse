@@ -1,0 +1,30 @@
+@charset "UTF-8";
+button{
+	background:transparent;	/*按钮背景透明*/
+	border-width:0px;	/*边框透明*/
+	outline:none;	/*点击后没边框*/
+	background-color: #8e8f90;
+	color: white;
+	width : 350px;
+	height : 45px;
+	margin-top: 20px;
+	border-radius: 50px;
+	
+}
+div{
+	vertical-align :middle;
+	margin-top:100px;
+	height:600px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	line-height: 20px;
+	padding-top: 25px;
+	word-wrap: break-word; /*英文的时候需要加上这句，自动换行*/
+	text-align: center;
+	cursor: pointer;
+}
+ul{
+	 list-style: none;/*去除列表格式，消除小黑点*/
+	 padding-bottom: 100px;
+}

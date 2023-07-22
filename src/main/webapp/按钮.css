@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.mydiv{
+
+	height:300px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.btn {
+      /* 文字颜色 */
+      color: #0099CC; 
+      /* 清除背景色 */
+      background: transparent;
+      width : 100px;
+      height : 80px;
+      /* 边框样式、颜色、宽度 */
+      border: 2px solid #0099CC;
+      width: 150px;
+	height: 100px;
+      /* 给边框添加圆角 */
+	border-radius:1000px;
+      
+      /* 字母转大写 */
+      border: none;
+      color: black;
+      padding: 16px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 35px;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase;
+}
+.btn1 {
+      background-color: white; 
+      color: black; 
+      border: 2px solid #008CBA;
+      border-radius: 50px;
+}
+/* 悬停样式 */
+.btn1:hover {
+      background-color: #008CBA;
+      color: white;
+}
+
